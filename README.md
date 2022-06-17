@@ -101,9 +101,11 @@ backgroundImage属性设置颜色在过渡的时候会表现的非常突兀（�
 经过测试
 
 - 2个颜色完全不同的bar的切换。中间会自动有自动过渡颜色。
-![Simulator Screen Shot - iPhone 12 - 2022-06-17 at 10 19 32](https://user-images.githubusercontent.com/11294005/174212105-4d2c4a1d-9bbb-4522-999e-57d44096e94c.png)
-![Simulator Screen Shot - iPhone 12 - 2022-06-17 at 10 19 38](https://user-images.githubusercontent.com/11294005/174212136-474c45b5-9ad7-43fa-beec-542d2c72095b.png)
-![Simulator Screen Shot - iPhone 12 - 2022-06-17 at 10 17 58](https://user-images.githubusercontent.com/11294005/174212189-668eb6ac-1c95-4bbb-a83d-257cff894912.png)
+
+![Simulator Screen Shot - iPhone 12 - 2022-06-17 at 10 19 32](https://user-images.githubusercontent.com/11294005/174212767-8d706752-d304-4ab3-ae7d-7aeb541b0c46.png)
+![Simulator Screen Shot - iPhone 12 - 2022-06-17 at 10 19 38](https://user-images.githubusercontent.com/11294005/174212783-a8c5f65e-400d-46e6-b71e-46bbb3585d8b.png)
+![Simulator Screen Shot - iPhone 12 - 2022-06-17 at 10 17 58](https://user-images.githubusercontent.com/11294005/174212792-bfab804d-e70c-453b-9caf-dbb733175578.png)
+
 ![screen shot 2022-06-17 上午10 18 49](https://user-images.githubusercontent.com/11294005/174212197-a13658e2-1bd3-49aa-b236-106dee9a7803.png)
 
 
