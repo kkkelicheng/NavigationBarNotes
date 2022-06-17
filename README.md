@@ -26,7 +26,9 @@ iOS13之前需要了解
 - tintColor : The tint color to apply to the navigation items and bar button items.
 
 设置几个基础属性就OK
-
+**xxxTintColor在iOS13以后就没必要用了,设置了也无效** 。 
+UINavigationBarAppearance压根就没这个属性。
+iOS13+的导航栏设置非常容易，也没那么让人混淆。
 
 [官方Note](https://developer.apple.com/documentation/technotes/tn3106-customizing-uinavigationbar-appearance)
 其中有全局设置，
