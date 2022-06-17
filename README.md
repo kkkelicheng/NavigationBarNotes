@@ -4,7 +4,7 @@
 [了解NavigationBar官方文档](https://developer.apple.com/documentation/uikit/uinavigationbar?language=objc)
 
 
-### Bar的Translucent & Opaque
+### 1. Bar的Translucent & Opaque
 
 当设置为Opaque不透明。
 
@@ -18,7 +18,7 @@ appearance.configureWithTransparentBackground()
 // set bar appearance
 ```
 
-### 如何设置Bar的颜色。iOS13+
+### 2. 如何设置Bar的颜色。iOS13+
 
 iOS13之前需要了解
 - barTintColor : The tint color to apply to the navigation bar background.
@@ -101,7 +101,7 @@ override func viewDidLoad() {
 
 
 
-### 2个ViewController切换（后面直接写为bar的切换），Bar的渐变。
+### 3. 2个ViewController切换（后面直接写为bar的切换），Bar的渐变。
 
 网上很多渐变的设置。真的要那么复杂吗？apple年年更新这个导航栏，虽然曾经确实很难用。那也是曾经。
 
