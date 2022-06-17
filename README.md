@@ -1,6 +1,8 @@
 # NavigationBarNotes
 记录一下日常简单的NavigationBar使用，哦也包含一下NavigationController吧。
 因为不是记录中间的实现过程和原理，篇幅不会很长。
+[了解NavigationBar官方文档](https://developer.apple.com/documentation/uikit/uinavigationbar?language=objc)
+
 
 ### Bar的Translucent & Opaque
 
@@ -18,7 +20,13 @@ appearance.configureWithTransparentBackground()
 
 ### 如何设置Bar的颜色。iOS13+
 
-iOS13以下的就是简单的设置一下那几个原来的属性就行了。这里略。
+iOS13之前需要了解
+- barTintColor : The tint color to apply to the navigation bar background.
+- backgroundColor : change the background color of navigationBar
+- tintColor : The tint color to apply to the navigation items and bar button items.
+
+设置几个基础属性就OK
+
 
 [官方Note](https://developer.apple.com/documentation/technotes/tn3106-customizing-uinavigationbar-appearance)
 其中有全局设置，
@@ -33,7 +41,7 @@ func customNavBarAppearance() -> UINavigationBarAppearance {
     
     // Apply a red background.
     customNavBarAppearance.configureWithOpaqueBackground()
-    customNavBarAppearance.backgroundColor = .systemRed
+    customNavBarAppearance.backgroundColor = .systemRed //可以注意到官方文档也用的backgroundColor
     
     // Apply white colored normal and large titles.
     customNavBarAppearance.titleTextAttributes = [.foregroundColor: UIColor.white]
